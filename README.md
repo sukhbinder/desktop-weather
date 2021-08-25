@@ -21,7 +21,7 @@ python setup.py install
 # Additional Steps To use this 
 
 - Please register and download  API_KEY from the [openweathermap.org](http://api.openweathermap.org/)
-- Set Environment variable ``API_KEY`` to your api key
+- Set Environment variable ``WAPI_KEY`` to your api key
 - Set Environment Variable ``CITY_ID`` to your desired location 
 
 Example of setting this is in cmd:
@@ -30,7 +30,7 @@ Example of setting this is in cmd:
 
 setx CITY_ID 2651347
 
-setx API_KEY YOUR_API_KEY
+setx WAPI_KEY YOUR_API_KEY
 ```
 
 # How to use?
